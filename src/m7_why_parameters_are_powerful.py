@@ -169,6 +169,7 @@ def even_better_draw_circles(x1, y1, t1, n1, x2, y2, t2, n2):
         circle = rg.Circle(center, n2 * l)
         circle.attach_to(window)
         window.render(0.05)
+        
 
 
     window.close_on_mouse_click()
